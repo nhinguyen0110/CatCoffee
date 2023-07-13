@@ -30,14 +30,14 @@ To install and run the Cat Coffee HTML project on your local machine, follow the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/cat-coffee-html.git
+   git clone https://github.com/nhinguyen/cat-coffee-html.git
 2. Navigate to the project directory:
-bash
-Copy code
-cd cat-coffee-html
+   ```bash
+   cd cat-coffee-html
+
 That's it! The project does not require any additional installations or dependencies.
 
-##Usage
+## Usage
 To use the Cat Coffee HTML project, follow these steps:
 
 Open the project folder.
@@ -48,7 +48,7 @@ You will be directed to the home page of the Cat Coffee website. Navigate throug
 
 Explore the website's features, including the menu, about page, and contact form.
 
-Contributing
+## Contributing
 Contributions to the Cat Coffee HTML project are welcome! If you find any issues or have suggestions for improvements, please open an issue on the GitHub repository. If you'd like to contribute code changes, you can fork the repository, make your modifications, and submit a pull request.
 
 We hope you enjoy exploring the Cat Coffee HTML project! If you have any questions or need further assistance, please don't hesitate to reach out. Happy coding!
