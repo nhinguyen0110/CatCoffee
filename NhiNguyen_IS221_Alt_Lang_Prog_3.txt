@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<!--
+Name:		NhiNguyen_IS221_Alt_Lang_Prog_3.htm
+Author:		Nhi Nguyen
+Date:		2023-04-27
+Language:	HTML/CSS
+Purpose:	This program is written to create a webpage for Cat Coffee using HTML and CSS.
+		The webpage features a heading, a body, paragraphs, images, and a hyperlink
+		to describe information about the coffee shop. The webpage also uses the Roboto
+		font, and has some colors for text and background. 
+-->
+<head>
+	<title>Cat Coffee</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-color: #FAD2B9;
+			font-family: 'Roboto', sans-serif;
+		}
+		h1 {
+			text-align: center;
+			color: #F5F5F5;
+			text-shadow: 2px 2px #C1810A;
+		}
+		p {
+    			font-size: 18px;
+    			line-height: 1.5;
+		}
+		p.left-align {
+			text-align: left;
+			color: #4F4846;
+			margin-left: 20px;
+		}
+		p.center-align {
+			text-align: center;
+			color: #4F4846;
+		}
+		p.right-align {
+			text-align: right;
+			color: #4F4846;
+			margin-right: 20px;
+		}
+		img {
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+			max-width: 100%;
+			height: auto;
+		}
+		img:hover {
+   	 		opacity: 0.8;
+		}
+		.gif {
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+			max-width: 100%;
+			height: auto;
+		}
+		a {
+			color: #EC997C;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+		a:hover {
+			cursor: pointer;
+ 			text-decoration: bold;
+		}
+		.container {
+			box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    			border: 2px solid #E58143;
+    			border-radius: 10px;
+    			padding: 20px;
+    			margin: 50px auto;
+    			max-width: 800px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Cat Coffee</h1>
+		</header>
+		<main>
+			<p class="left-align">If you're a coffee lover and a cat lover, then you'll definitely love cat coffee. Cat Coffee is a coffee shop that's designed for cat lovers. You can enjoy your coffee while playing with cats.</p>
+			<p class="center-align">Cat coffee has become very popular lately. People love to spend their time with cats while drinking coffee. It's a perfect place to relax and forget about your worries for a while.</p>
+			<p class="right-align">Cat coffee has a unique atmosphere. The cats are friendly and love to play with people. You can pet them, play with them or just watch them. They'll make you feel happy and relaxed.</p>
+			<img src="cat-coffee-1.jpg" alt="Cat Coffee" />
+			<p class="left-align">If you're interested in cat coffee, you can find more information on their website. They have a variety of coffee and pastry options to choose from. You can also find information on their opening hours and location. <a href="https://theculturetrip.com/north-america/usa/california/articles/11-astonishing-cat-cafes-around-the-world/" target="_blank">Visit Cat Coffee Website</a></p>
+			
+			<img src="cat-coffee-2.jpg" alt="Cat Coffee" />
+			<p class="center-align">If you want to experience something different, then cat coffee is the perfect place for you. It's a unique and enjoyable experience that you won't forget.</p>
+			<div class="cat-gif">
+				<img src="cat-coffee-gif.gif" alt="Cat Coffee" class="gif" />
+			</div>
+			<p class="right-align">Don't miss the chance to visit cat coffee. You'll love it.</p>
+		</main>
+	</div>
+</body>
+</html>
